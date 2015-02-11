@@ -20,12 +20,3 @@ If you need to install eclimd, this repo provides the command `DeployEclimd` tha
 required argument, the directory of your eclipse instance. 
 
 No Warranty.
-
-Updating the repo
------------------
-
-Assuming PWD = the cloned repo
-```bash
-ant -Declipse.home=/Applications/eclipse -Dvim.files=$PWD
-... commit ...
-```
